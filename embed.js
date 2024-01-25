@@ -1,0 +1,10 @@
+var embedUrl = 'https://lopezsstuff.github.io/gfn/';
+var iframe = document.createElement('iframe');
+iframe.src = embedUrl;
+iframe.width = '100%';
+iframe.height = '100%';
+iframe.style.position = 'fixed';
+iframe.style.top = '0';
+iframe.style.left = '0';
+iframe.style.zIndex = '9999';
+document.body.appendChild(iframe);
